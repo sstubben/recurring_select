@@ -83,6 +83,7 @@ $.fn.recurring_select.options = {
   datepicker: {
     firstDay: 1,  # 1 = monday, 0 = sunday
     beforeShowDayFunction: ->
+      [true, '', '']
   },
   close_on_outside_click: true
 }
